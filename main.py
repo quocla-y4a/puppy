@@ -9,12 +9,12 @@ def index():
     print(f"📁 Is reading from folder: {folder_path}")
     docs = load_documents(folder_path)
     add_documents(docs)
-    print(f"✅ Meoz đã đọc {len(docs)} đoạn từ tài liệu.")
+    print(f"✅ Puppy đã đọc {len(docs)} đoạn từ tài liệu.")
 
 def chat(question):
     print(f"\n❓ Question: {question}")
     answer = ask(question)
-    print(f"\n🧠 Meoz answers:\n{answer}")
+    print(f"\n🧠 Puppy answers:\n{answer}")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
